@@ -14,4 +14,9 @@ export class CalcAge{
     console.log(this.age);
     return this.age;
   }
+  ageJupiter(input){
+    this.age = Math.round(input/11.86);
+    console.log(this.age);
+    return this.age;
+  }
 }
