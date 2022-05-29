@@ -4,4 +4,9 @@ export class CalcAge{
     console.log(this.age);
     return this.age;
   }
+  ageVenus(input){
+    this.age = input * .62;
+    console.log(this.age);
+    return this.age;
+  }
 } 
